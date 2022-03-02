@@ -1,0 +1,86 @@
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 400px;
+  margin: 10px;
+  border: 3px solid #73ad21;
+}
+
+.after-box {
+  border: 3px solid red;
+}
+
+.block-1 {
+  position: relative;
+  border: 3px solid greenyellow;
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  background-color: greenyellow;
+  margin: 10px;
+}
+
+.block-2 {
+  position: relative;
+  border: 0px solid;
+  width: 200px;
+  height: 170px;
+  top: -70px;
+  left: 190px;
+  background-color: blueviolet;
+}
+
+.block-3 {
+  position: relative;
+  border: 0px solid rgb(255, 71, 184);
+  width: 450px;
+  height: 150px;
+  background-color: rgb(255, 71, 184);
+  top: -75px;
+  left: 25px;
+}
+
+.block-4 {
+  position: relative;
+  border: 0px solid rgb(181, 71, 255);
+  background-color: rgb(94, 3, 3);
+  width: 150px;
+  height: 410px;
+  top: -550px;
+  left: 450px;
+}
+
+div.relative {
+  position: relative;
+  width: 600px;
+  height: 150px;
+  border: 3px solid #e64c10;
+  top: -400px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 100px;
+  right: 8px;
+  width: 350px;
+  height: 30px;
+  border: 3px solid #e64c10;
+}
+
+div.static {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  width: 150px;
+  height: 25px;
+  border: 3px solid #e64c10;
+}
+
+div.static-2 {
+  position: absolute;
+  top: 10px;
+  right: 335px;
+  width: 250px;
+  height: 55px;
+  border: 3px solid #e64c10;
+}
